@@ -18,7 +18,7 @@ function install_py37(){
 	#调用安装依赖函数
 	rely
 	#下载源码
-	wget http://soft.xiaoz.org/python/Python-3.7.0.tar.xz
+	wget https://github.com/lzw981731/shell/raw/master/Python-3.7.0.tar.xz
 	#解压
 	tar -xvJf Python-3.7.0.tar.xz
 	cd Python-3.7.0
